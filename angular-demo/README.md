@@ -12,13 +12,15 @@ This app is built with the NativeScript CLI. Once you have the [CLI installed](h
 npm i -g nativescript
 ```
 
+Clone the repo and go to the project's directory:
+
 ```bash
 git clone https://github.com/williamjuan027/nativescript-tutorials.git
 
 cd nativescript-tutorials/angular-demo
 ```
 
-Install the project's dependencies
+Install the project's dependencies:
 
 ```bash
 npm install
