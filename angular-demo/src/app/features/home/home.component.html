@@ -1,0 +1,40 @@
+<ActionBar title="NativeFlix"></ActionBar>
+
+<ListView
+    height="100%"
+    separatorColor="transparent"
+    [items]="flicks"
+    (itemTap)="onFlickTap($event)">
+    <ng-template let-item="item">
+        <!-- The item template can only have a single root view container (e.g. GridLayout, StackLayout, etc.)-->
+        <GridLayout
+            height="280"
+            borderRadius="10"
+            class="bg-secondary"
+            rows="*, auto, auto"
+            columns="*"
+            margin="5 10"
+            padding="0">
+          <Image
+            row="0"
+            margin="0"
+            stretch="aspectFill"
+            [src]="item.image"></Image>
+          <Label
+            row="1"
+            margin="10 10 0 10"
+            fontWeight="700"
+            class="text-primary"
+            fontSize="18"
+            [text]="item.title"></Label>
+          <Label
+            row="2"
+            margin="0 10 10 10"
+            class="text-secondary"
+            fontSize="14"
+            textWrap="true"
+            [text]="item.description"></Label>
+        </GridLayout>
+      </ng-template>
+
+</ListView>

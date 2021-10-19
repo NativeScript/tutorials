@@ -46,6 +46,7 @@
   },
   "devDependencies": {
     "@angular/compiler-cli": "~12.0.0",
+    "@nativescript/ios": "8.0.0",
     "@nativescript/types": "~8.0.0",
     "@nativescript/webpack": "beta",
     "@ngtools/webpack": "~12.0.0",
