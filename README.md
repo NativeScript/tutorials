@@ -9,3 +9,4 @@
 More information on how to run each demo app on the READMEs of the specific flavor:
 
 - [Angular](./angular-demo)
+- [Vue](./vue-demo)

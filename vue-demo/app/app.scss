@@ -1,0 +1,37 @@
+@import "@nativescript/theme/core";
+@import "@nativescript/theme/default";
+
+// Place any CSS rules you want to apply on both iOS and Android here.
+// This is where the vast majority of your CSS code goes.
+
+// applied when device is in light mode
+.ns-light {
+  .bg-primary {
+    background-color: #fdfdfd;
+  }
+  .bg-secondary {
+    background-color: #ffffff;
+  }
+  .text-primary {
+    color: #444;
+  }
+  .text-secondary {
+    color: #777;
+  }
+}
+
+// applied when device is in dark mode
+.ns-dark {
+  .bg-primary {
+    background-color: #212121;
+  }
+  .bg-secondary {
+    background-color: #383838;
+  }
+  .text-primary {
+    color: #eee;
+  }
+  .text-secondary {
+    color: #ccc;
+  }
+}
