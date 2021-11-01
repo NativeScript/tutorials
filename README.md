@@ -10,3 +10,4 @@ More information on how to run each demo app on the READMEs of the specific flav
 
 - [Angular](./angular-demo)
 - [Vue](./vue-demo)
+- [Core](./core-demo)
