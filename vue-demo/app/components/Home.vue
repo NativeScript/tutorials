@@ -20,21 +20,21 @@
                 row="0"
                 margin="0"
                 stretch="aspectFill"
-                :src="item.image"></Image>
+                :src="item.image" />
               <Label
                 row="1"
                 margin="10 10 0 10"
                 fontWeight="700"
                 class="text-primary"
                 fontSize="18"
-                :text="item.title"></Label>
+                :text="item.title" />
               <Label
                 row="2"
                 margin="0 10 10 10"
                 class="text-secondary"
                 fontSize="14"
                 textWrap="true"
-                :text="item.description"></Label>
+                :text="item.description" />
             </GridLayout>
           </v-template>
     </ListView>
