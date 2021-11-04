@@ -90,6 +90,12 @@ export class FlickService {
     },
   ];
 
+  static getInstance(): FlickService {
+    return FlickService._instance;
+  }
+
+  private static _instance: FlickService = new FlickService();
+
   getFlicks(): FlickModel[] {
     return this.flicks;
   }

@@ -20,14 +20,13 @@ export class HomeViewModel extends Observable {
   }
 
   populateFlicks(): void {
-    const flickService = new FlickService();
-    this._flicks = flickService.getFlicks();
+    this._flicks = FlickService.getInstance().getFlicks();
   }
 
   onFlickTap(args: ItemEventData): void {
     Frame.topmost().navigate({
       moduleName: "details/details-page",
-      context: { flick: this._flicks[args.index] },
+      context: { flickId: this._flicks[args.index].id },
     });
   }
 }
