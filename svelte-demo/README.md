@@ -1,6 +1,6 @@
-# NativeScript React Demo
+# NativeScript Svelte Demo
 
-> Demo for NativeScript React Tutorial
+> Demo for NativeScript Svelte Tutorial
 
 <img alt="demo app preview" src="../screenshots/tutorial-example-app-preview.png" width="500">
 
@@ -12,14 +12,14 @@ This app is built with the NativeScript CLI. Once you have the [CLI installed](h
 npm i -g nativescript
 ```
 
-> For more information on how to use React with NativeScript, check out the official [React NativeScript documentation](https://react-nativescript.netlify.app/)
+> For more information on how to use Svelte with NativeScript, check out the official [Svelte-Native documentation](https://svelte-native.technology/)
 
 Clone the repo and go to the project's directory:
 
 ```bash
 git clone https://github.com/williamjuan027/nativescript-tutorials.git
 
-cd nativescript-tutorials/react-demo
+cd nativescript-tutorials/svelte-demo
 ```
 
 Install the project's dependencies:

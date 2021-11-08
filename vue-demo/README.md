@@ -12,6 +12,8 @@ This app is built with the NativeScript CLI. Once you have the [CLI installed](h
 npm i -g nativescript
 ```
 
+> For more information on how to use Vue with NativeScript, check out the official [NativeScript Vue documentation](https://nativescript-vue.org/)
+
 Clone the repo and go to the project's directory:
 
 ```bash

@@ -12,3 +12,4 @@ More information on how to run each demo app on the READMEs of the specific flav
 - [Vue](./vue-demo)
 - [Core](./core-demo)
 - [React](./react-demo)
+- [Svelte](./svelte-demo)
