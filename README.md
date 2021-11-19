@@ -6,8 +6,8 @@
 
 More information can be found on the READMEs of each specific flavor:
 
+- [Plain](./plain-tutorial)
 - [Angular](./angular-tutorial)
-- [Vue](./vue-tutorial)
-- [Core](./core-tutorial)
 - [React](./react-tutorial)
 - [Svelte](./svelte-tutorial)
+- [Vue](./vue-tutorial)
