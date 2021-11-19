@@ -1,15 +1,13 @@
 # NativeScript Tutorials
 
-> Demo apps for NativeScript tutorials
-
-<img alt="demo app preview" src="./screenshots/tutorial-example-app-preview.png" width="500">
+<img alt="tutorial app preview" src="./screenshots/tutorial-example-app-preview.png" width="500">
 
 ## Getting Started
 
-More information on how to run each demo app on the READMEs of the specific flavor:
+More information can be found on the READMEs of each specific flavor:
 
-- [Angular](./angular-demo)
-- [Vue](./vue-demo)
-- [Core](./core-demo)
-- [React](./react-demo)
-- [Svelte](./svelte-demo)
+- [Angular](./angular-tutorial)
+- [Vue](./vue-tutorial)
+- [Core](./core-tutorial)
+- [React](./react-tutorial)
+- [Svelte](./svelte-tutorial)

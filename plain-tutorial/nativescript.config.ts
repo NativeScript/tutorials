@@ -1,7 +1,7 @@
 import { NativeScriptConfig } from '@nativescript/core';
 
 export default {
-  id: 'org.nativescript.sveltedemo',
+  id: 'org.nativescript.plain',
   appPath: 'app',
   appResourcesPath: 'App_Resources',
   android: {

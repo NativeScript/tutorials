@@ -1,7 +1,7 @@
 import { NativeScriptConfig } from '@nativescript/core';
 
 export default {
-  id: 'org.nativescript.reactdemo',
+  id: 'org.nativescript.react',
   appPath: 'src',
   appResourcesPath: 'App_Resources',
   android: {

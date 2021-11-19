@@ -1,8 +1,6 @@
-# NativeScript Vue Demo
+# NativeScript Vue
 
-> Demo for NativeScript Vue Tutorial
-
-<img alt="demo app preview" src="../screenshots/tutorial-example-app-preview.png" width="500">
+<img alt="tutorial app preview" src="../screenshots/tutorial-example-app-preview.png" width="500">
 
 ## Development
 
@@ -17,9 +15,9 @@ npm i -g nativescript
 Clone the repo and go to the project's directory:
 
 ```bash
-git clone https://github.com/williamjuan027/nativescript-tutorials.git
+git clone https://github.com/NativeScript/tutorials.git
 
-cd nativescript-tutorials/vue-demo
+cd tutorials/vue-tutorial
 ```
 
 Install the project's dependencies:
