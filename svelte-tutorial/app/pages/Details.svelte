@@ -30,8 +30,8 @@
 
   <script>
     import { navigate } from 'svelte-native'
-	import { FlickService } from '../services/FlickService';
-    
+	import { FlickService } from '../services/flickService';
+
     export let flickId;
     let flick = FlickService.getInstance().getFlickById(flickId);
 </script>
