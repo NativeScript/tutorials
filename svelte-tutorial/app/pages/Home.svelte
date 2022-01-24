@@ -44,7 +44,7 @@
     import { navigate } from 'svelte-native'
 	import { Template } from 'svelte-native/components'
     import Details from './Details.svelte';
-	import { FlickService } from '../services/FlickService';
+	import { FlickService } from '../services/flickService';
 
     let flicks = FlickService.getInstance().getFlicks();
 
