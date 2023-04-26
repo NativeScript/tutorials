@@ -1,0 +1,44 @@
+<!-- app/home/home-page.xml -->
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+  <ActionBar title="NativeFlix" />
+  <StackLayout height="100%">
+    <!-- Update this 👇 -->
+    <ListView
+      height="100%"
+      separatorColor="transparent"
+      items="{{ flicks }}"
+      itemTap="{{ onFlickTap }}"
+      margin="10"
+    >
+      <ListView.itemTemplate>
+        <GridLayout
+          height="280"
+          borderRadius="10"
+          class="bg-secondary"
+          rows="*, auto, auto"
+          columns="*"
+          margin="5 10"
+          padding="0"
+        >
+          <Image row="0" margin="0" stretch="aspectFill" src="{{ image }}" />
+          <Label
+            row="1"
+            margin="10 10 0 10"
+            fontWeight="700"
+            class="text-primary"
+            fontSize="18"
+            text="{{ title }}"
+          />
+          <Label
+            row="2"
+            margin="0 10 10 10"
+            class="text-secondary"
+            fontSize="14"
+            textWrap="true"
+            text="{{ description }}"
+          />
+        </GridLayout>
+      </ListView.itemTemplate>
+    </ListView>
+  </StackLayout>
+</Page>
