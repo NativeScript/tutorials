@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { FlickModel } from "~/app/core/models";
+import { FlickModel } from "~/core/models/flick.model";
 
 @Injectable({
   providedIn: "root"
