@@ -30,17 +30,24 @@
 </template>
 
 <script lang="ts">
-  import Vue from "nativescript-vue";
-  import FlickService from '../services/FlickService';
+    import { defineComponent } from "nativescript-vue";
+    import FlickService from '../services/FlickService';
+    import type { FlickModel } from '../models/Flick';
   
-  const flickService = new FlickService();
+    const flickService = new FlickService();
 
-  export default Vue.extend({
-    props: ['id'],
-    data() {
-        return {
-            flick: flickService.getFlickById(this.id)
+    export default defineComponent({
+        props: {
+            id: {
+                type: Number,
+                required: true
+            }
+        },
+        data() {
+            const fallback = flickService.getFlicks()[0];
+            return {
+                flick: (flickService.getFlickById(this.id) || fallback) as FlickModel
+            }
         }
-    }
-  });
+    });
 </script>

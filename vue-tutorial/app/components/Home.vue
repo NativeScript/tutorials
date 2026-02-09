@@ -5,9 +5,9 @@
     <ListView
         height="100%"
         separatorColor="transparent"
-        for="item in flicks"
+        :items="flicks"
         @itemTap="onFlickTap">
-        <v-template>
+        <template #default="{ item }">
             <GridLayout
                 height="280"
                 borderRadius="10"
@@ -36,29 +36,34 @@
                 textWrap="true"
                 :text="item.description" />
             </GridLayout>
-          </v-template>
+          </template>
     </ListView>
   </Page>
 </template>
 
 <script lang="ts">
-  import Vue from "nativescript-vue";
+  import { defineComponent } from "nativescript-vue";
   import FlickService from '../services/FlickService';
   import Details from './Details.vue';
+  import type { FlickModel } from '../models/Flick';
 
   const flickService = new FlickService();
 
-  export default Vue.extend({
+  export default defineComponent({
     data() {
       return {
-        flicks: flickService.getFlicks()
+        flicks: flickService.getFlicks() as FlickModel[]
       }
     },
     methods: {
-      onFlickTap(args) {
-        const id = args.item.id;
+      onFlickTap(args: { item?: FlickModel; index?: number }) {
+        const item = args.item || (typeof args.index === 'number' ? this.flicks[args.index] : undefined);
+        if (!item) {
+          return;
+        }
+        const id = item.id;
         this.$navigateTo(Details, {
-          props: {id}
+          props: { id }
         });
       }
     }

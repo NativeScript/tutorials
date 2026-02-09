@@ -6,6 +6,7 @@ export interface FlickModel {
   url: string;
   description: string;
   details: {
+    id: number;
     title: string;
     body: string;
   }[];
