@@ -38,20 +38,20 @@
     "template"
   ],
   "dependencies": {
-    "@nativescript/core": "~8.1.0",
+    "@nativescript/core": "~9.0.0",
     "@react-navigation/core": "^5.15.3",
-    "react": "~16.13.1",
-    "react-nativescript": "^3.0.0-beta.1",
-    "react-nativescript-navigation": "3.0.0-beta.2",
-    "react-refresh": "~0.8.3"
+    "react": "~18.2.0",
+    "react-nativescript": "^5.0.0",
+    "react-nativescript-navigation": "~5.0.0",
+    "react-refresh": "~0.18.0"
   },
   "devDependencies": {
-    "@nativescript/types": "~8.1.0",
-    "@nativescript/webpack": "~5.0.0",
-    "@pmmmwh/react-refresh-webpack-plugin": "~0.4.0-beta.5",
-    "@types/react": "16.9.34",
-    "patch-package": "~6.2.2",
-    "typescript": "~4.0.0"
+    "@nativescript/types": "~9.0.0",
+    "@nativescript/webpack": "~5.0.31",
+    "@pmmmwh/react-refresh-webpack-plugin": "~0.6.2",
+    "@types/react": "18.2.0",
+    "patch-package": "~8.0.1",
+    "typescript": "~5.8.0"
   },
   "gitHead": "1350d382fb4b0ed4c6e9685df909518b2688e004",
   "readme": "NativeScript Application",

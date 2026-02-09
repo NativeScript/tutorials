@@ -29,7 +29,6 @@
 </page>
 
   <script>
-    import { navigate } from 'svelte-native'
 	import { FlickService } from '../services/flickService';
 
     export let flickId;
