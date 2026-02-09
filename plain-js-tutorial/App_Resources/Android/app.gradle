@@ -1,24 +1,12 @@
-// You can add your native dependencies here
-dependencies {
-//  implementation 'androidx.multidex:multidex:2.0.1'
-}
-
 android {
-  // compileSdkVersion 32
-  // buildToolsVersion "32.0.0"
-  // ndkVersion ""
+  compileSdkVersion 36
+  buildToolsVersion "36"
 
   defaultConfig {
-    minSdkVersion 17
-    // targetSdkVersion 32
-
-    // Version Information
-    versionCode 1
-    versionName "1.0.0"
-    
+    minSdkVersion 24
+    targetSdkVersion 36
     generatedDensities = []
   }
-
   aaptOptions {
     additionalParameters "--no-version-vectors"
   }
